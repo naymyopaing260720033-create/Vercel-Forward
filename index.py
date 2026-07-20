@@ -145,3 +145,4 @@ def webhook() -> tuple[Any, int]:
 @app.get("/api")
 def healthcheck() -> tuple[Any, int]:
     return jsonify({"ok": True, "service": "telegram-webhook-bot"}), 200
+    
